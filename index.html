@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Trivia Web</h1>
+        <div id="score-container">
+            <span id="correct-count">Correctas: 0</span>
+            <span id="incorrect-count">Incorrectas: 0</span>
+        </div>
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="answers"></div>
+        </div>
+        <button id="next-question">Nueva Pregunta</button>
+        <p id="result"></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Trivia Web. Jadir Alexis Garcia Diaz, U. Iberoamericana.</p>
+    </footer>
+    <audio id="correct-sound"
+        src="https://drive.google.com/uc?export=download&id=12-VuuX59iVefPy4Zg04-fWy7nFEFqbXG"></audio>
+    <audio id="incorrect-sound"
+        src="https://drive.google.com/uc?export=download&id=19QITRIIOCD1Sc_90327-x0cMQkzzmrF4"></audio>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
