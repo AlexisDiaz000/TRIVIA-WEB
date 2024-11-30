@@ -1,3 +1,6 @@
+Integrante:
+Jadir Alexis Garcia Diaz
+
 Descripción
 Trivia Web es una aplicación interactiva que permite a los usuarios participar en divertidas y desafiantes preguntas de trivia. La aplicación se conecta a la API de Open Trivia Database para obtener preguntas aleatorias y ofrece una experiencia de juego sencilla y atractiva. Los usuarios pueden seleccionar respuestas, ver sus resultados y avanzar a la siguiente pregunta con un solo clic.
 
